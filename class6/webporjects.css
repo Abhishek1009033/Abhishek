@@ -1,0 +1,90 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.fullscreena{
+    margin-left: auto;
+    margin-right: auto;
+    width: 1528px;
+    height: auto;
+}
+.heading{
+    margin-top: 40px;
+    width: 1300px;
+    height: 65px;
+    padding-top: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: antiquewhite;
+    background-image: url(../Image/hQuicklearn-logo.png);
+    background-repeat: no-repeat;
+}
+.buttonss{
+    float: right;
+    margin-top: -35px;
+    margin-right: 25px;
+}
+.buttonss button{
+    width: 90px;
+    height: 35px;
+    border: none;
+    font-size: 15px;
+    color: white;
+    border-radius: 25px 25px 25px 25px;
+    background-color: black;
+}
+#budd{
+    color: black;
+    background-color: white;
+}
+.inputgroup{
+    width: 650px;
+    height: 35px;
+    border-radius: 25px 25px 25px 25px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: aqua;
+}
+.inputgroup select{
+    width: 150px;
+    height: 35px;
+    float: left;
+    border: none;
+    font-size: 15px;
+    padding-left: 10px;
+    border-radius: 25px 0px 0px 25px;
+    background-color: aliceblue;
+}
+.inputgroup input{
+    width: 500px;
+    height: 35px;
+    float: left;
+    border: none;
+    background-color: aliceblue;
+    border-radius: 0px 25px 25px 0px;
+}
+.inputgroup button{
+    width: 120px;
+    height: 35px;
+    float: left;
+    border: none;
+    color: white;
+    font-size: 18px;
+    margin-left: -120px;
+    background-color: blue;
+    border-radius: 25px 25px 25px 25px;
+}
+.menubar{
+    width: 1300px;
+    margin-left: 8%;
+    margin-top: 30px;
+}
+.menubar select{
+    width: 180px;
+    height: 45px;
+    font-size: 18px;
+    padding-left: 20px;
+    border-radius: 25px 25px 25px 25px;
+}
+
+

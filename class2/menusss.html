@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    *{
+        margin: 0px;
+        padding: 0px;
+    }
+    div ul{
+        background-color: blue;
+    }
+    div ul li{
+        float: left;
+        list-style: none;
+        background-color: aqua;
+    }
+    div ul li ul{
+        display: none;
+    }
+    div ul li:hover ul{
+        display: block;
+    }
+    div ul li ul li{
+        display: inline;
+    }
+</style>
+<body>
+    <div>
+        <ul>
+            <li>dewf</li>
+            <li>efwfee
+                <ul>
+                    <li>efwif</li>
+                    <li>weffew</li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+</body>
+</html>

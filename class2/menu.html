@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>menuaaa</title>
+</head>
+<style>
+    *{
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+        background-color: aquamarine;
+    }
+    .menu{
+        border-radius: 15px 5px 15px 15px;
+        width: 100%;
+        height: 70px;
+        background-color: chartreuse;
+        position: absolute;
+    }
+    .menu ul li{
+        border-radius: 15px 5px 15px 5px;
+        list-style: none;
+        width: 90px;
+        height: 70px;
+        padding: 20px;
+        font-size: 20px;
+        background-color: chartreuse;
+        float: left;
+        
+    }
+    
+    .menu ul li:hover{
+        background-color: blue;
+    }
+    .menu ul li ul li {
+        border-radius: 10px;
+        float: none;
+    }
+    .menu ul li ul{
+        margin-top: 27px;
+        margin-left: -20px;
+        position: absolute;
+        display: none;
+    }
+    .menu ul li:hover ul{
+        display: block;
+    }
+    .menu ul li:hover ul li ul{
+        margin: 0px;
+        display: none;
+    }
+    .menu ul li ul li:hover ul{
+        display: block;
+    }
+    .menu ul li ul li ul{
+        position: absolute;
+        left: 90px;
+        top: 0px;
+    }
+    .menu ul li ul li ul li{
+        background-color: antiquewhite;
+    }
+    .menu ul li ul li:hover ul li ul{
+        display: none;
+    }
+    .menu ul li ul li ul li:hover ul{
+        display: block;
+    }
+    .menu ul li ul li ul li ul{
+        position: absolute;
+        top: 20px;
+    }
+    .menu ul li ul li ul li ul li{
+        background-color: aqua;
+    }
+    .menu ul li ul li ul li ul li:hover{
+        background-color: brown;
+    }
+</style>
+<body>
+    <div class="menu">
+        <ul>
+            <li>Home
+                <ul>
+                    <li>abishek 
+                        <ul>
+                            <li>abhi
+                                <ul>
+                                    <li>Tables</li>
+                                    <li>Tables</li>
+                                </ul>
+                            </li>
+                            <li>abhi</li>
+                        </ul>
+                    </li>
+                    <li>abishek</li>
+                    <li>abishek</li>
+                </ul>
+            </li>
+            <li>Edit</li>
+            <li>About</li>
+        </ul>
+    </div>
+</body>
+</html>

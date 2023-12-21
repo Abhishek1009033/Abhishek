@@ -1,0 +1,359 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.boxr1{
+    width: auto;
+    height: 300px;
+}
+.box-1{
+    width: 300px;
+    height: 100px;
+    background-color: aquamarine;
+    float: left;
+}
+.box-2{
+    width: 100px;
+    height: 300px;
+    background-color: rgb(67, 125, 76);
+    float: left;
+}
+.box-3{
+    width: 100px;
+    height: 300px;
+    background-color: rgb(226, 195, 43);
+    float: left;
+}
+.box-4{
+    width: 100px;
+    height: 300px;
+    background-color: rgb(43, 226, 70);
+    float: left;
+}
+.box-5{
+    width: 300px;
+    height: 100px;
+    background-color: blueviolet;
+    float: left;
+}
+.box-6{
+    width: 100px;
+    height: 300px;
+    background-color: rgb(14, 59, 21);
+    float: left;
+}
+.box-7{
+    width: 100px;
+    height: 300px;
+    background-color: rgb(226, 83, 43);
+    float: left;
+}
+.box-8{
+    width: 100px;
+    height: 300px;
+    background-color: rgb(43, 226, 70);
+    float: left;
+}
+.boxr2{
+    width: auto;
+    height: 0px;
+}
+.box-9{
+    width: 300px;
+    height: 100px;
+    background-color: blue;
+    float: left;
+    margin-top: -200px;
+}
+.box-10{
+    width: 300px;
+    height: 100px;
+    background-color: blue;
+    float: left;
+    margin-top: -200px;
+    margin-left: 600px;
+}
+.box-11{
+    width: 300px;
+    height: 100px;
+    background-color: rgb(0, 255, 157);
+    float: left;
+    margin-top: -100px;
+}
+.box-12{
+    width: 300px;
+    height: 100px;
+    background-color: rgb(0, 255, 106);
+    float: left;
+    margin-top: -100px;
+    margin-left: 600px;
+}
+.boxr3{
+    width: auto;
+    height: 300px;
+}
+.box-13{
+    width: 100px;
+    height: 300px;
+    background-color: rgb(226, 195, 43);
+    float: left;
+}
+.box-14{
+    width: 100px;
+    height: 300px;
+    background-color: rgb(88, 121, 49);
+    float: left;
+}
+.box-15{
+    width: 100px;
+    height: 300px;
+    background-color: rgb(49, 121, 106);
+    float: left;
+}
+.box-16{
+    width: 300px;
+    height: 100px;
+    background-color: rgb(62, 120, 86);
+    float: left;
+}
+.box-17{
+    width: 100px;
+    height: 300px;
+    background-color: rgb(62, 67, 120);
+    float: left;
+}
+.box-18{
+    width: 100px;
+    height: 300px;
+    background-color: rgb(174, 178, 47);
+    float: left;
+}
+.box-19{
+    width: 100px;
+    height: 300px;
+    background-color: rgb(62, 89, 120);
+    float: left;
+}
+.box-20{
+    width: 300px;
+    height: 100px;
+    background-color: rgb(120, 62, 102);
+    float: left;
+}
+.boxr4{
+    width: auto;
+    height: 0px;
+}
+.box-21{
+    width: 300px;
+    height: 100px;
+    background-color: rgb(120, 62, 102);
+    float: left;
+    margin-left: 300px;
+    margin-top: -200px;
+}
+.box-22{
+    width: 300px;
+    height: 100px;
+    background-color: rgb(62, 120, 68);
+    float: left;
+    margin-left: 900px;
+    margin-top: -200px;
+}
+.box-23{
+    width: 300px;
+    height: 100px;
+    background-color: rgb(62, 120, 68);
+    float: left;
+    margin-left: 300px;
+    margin-top: -100px;
+}
+.box-24{
+    width: 300px;
+    height: 100px;
+    background-color: rgb(62, 72, 120);
+    float: left;
+    margin-left: 900px;
+    margin-top: -100px;
+}
+.boxr5{
+    width: auto;
+    height: 300px;
+}
+.box-25{
+    width: 300px;
+    height: 100px;
+    background-color: rgb(62, 72, 120);
+    float: left;
+}
+.box-26{
+    width: 100px;
+    height: 300px;
+    background-color: rgb(166, 175, 224);
+    float: left;
+}
+.box-27{
+    width: 100px;
+    height: 300px;
+    background-color: rgb(62, 120, 62);
+    float: left;
+}
+.box-28{
+    width: 100px;
+    height: 300px;
+    background-color: rgb(142, 40, 132);
+    float: left;
+}
+.box-29{
+    width: 300px;
+    height: 100px;
+    background-color: rgb(62, 72, 120);
+    float: left;
+}
+.box-28{
+    width: 100px;
+    height: 300px;
+    background-color: rgb(40, 140, 142);
+    float: left;
+}
+.box-30{
+    width: 100px;
+    height: 300px;
+    background-color: rgb(142, 40, 132);
+    float: left;
+}
+.box-31{
+    width: 100px;
+    height: 300px;
+    background-color: rgb(50, 142, 40);
+    float: left;
+}
+.box-32{
+    width: 100px;
+    height: 300px;
+    background-color: rgb(49, 40, 142);
+    float: left;
+}
+.boxr6{
+    width: auto;
+    height: 0px;
+}
+.box-33{
+    width: 300px;
+    height: 100px;
+    background-color: rgb(120, 118, 62);
+    float: left;
+    margin-top: -200px;
+}
+.box-34{
+    width: 300px;
+    height: 100px;
+    background-color: rgb(62, 90, 120);
+    float: left;
+    margin-left: 600px;
+    margin-top: -200px;
+}
+.box-35{
+    width: 300px;
+    height: 100px;
+    background-color: rgb(63, 120, 62);
+    float: left;
+    margin-top: -100px;
+}
+.box-36{
+    width: 300px;
+    height: 100px;
+    background-color: rgb(27, 41, 110);
+    float: left;
+    margin-left: 600px;
+    margin-top: -100px;
+}
+.boxr7{
+    width: auto;
+    height: 300px;
+}
+.box-37{
+    width: 100px;
+    height: 300px;
+    background-color: rgb(49, 40, 142);
+    float: left;
+}
+.box-38{
+    width: 100px;
+    height: 300px;
+    background-color: rgb(40, 123, 142);
+    float: left;
+}
+.box-39{
+    width: 100px;
+    height: 300px;
+    background-color: rgb(40, 142, 71);
+    float: left;
+}
+.box-40{
+    width: 300px;
+    height: 100px;
+    background-color: rgb(27, 41, 110);
+    float: left;
+}
+.box-41{
+    width: 100px;
+    height: 300px;
+    background-color: rgb(142, 134, 40);
+    float: left;
+}
+.box-42{
+    width: 100px;
+    height: 300px;
+    background-color: rgb(142, 40, 93);
+    float: left;
+}
+.box-43{
+    width: 100px;
+    height: 300px;
+    background-color: rgb(49, 40, 142);
+    float: left;
+}
+.box-44{
+    width: 300px;
+    height: 100px;
+    background-color: rgb(27, 110, 91);
+    float: left;
+}
+.boxr8{
+    width: auto;
+    height: 0px;
+}
+.box-45{
+    width: 300px;
+    height: 100px;
+    background-color: rgb(196, 216, 211);
+    float: left;
+    margin-left: 300px;
+    margin-top: -200px;
+}
+.box-46{
+    width: 300px;
+    height: 100px;
+    background-color: rgb(27, 34, 110);
+    float: left;
+    margin-left: 900px;
+    margin-top: -200px;
+}
+.box-47{
+    width: 300px;
+    height: 100px;
+    background-color: rgb(110, 27, 37);
+    float: left;
+    margin-left: 300px;
+    margin-top: -100px;
+}
+.box-48{
+    width: 300px;
+    height: 100px;
+    background-color: rgb(37, 110, 27);
+    float: left;
+    margin-left: 900px;
+    margin-top: -100px;
+}
+

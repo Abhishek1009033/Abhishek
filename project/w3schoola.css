@@ -1,0 +1,64 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+.heading {
+    width: 100%;
+    height: 75px;
+    background-color: rgb(28, 210, 185);
+    position: fixed;
+    overflow: hidden;
+}
+
+.heading img {
+    float: left;
+}
+
+.heading a {
+    text-decoration: none;
+    color: black;
+    padding: 26px;
+    font-size: 20px;
+    width: auto;
+    height: auto;
+    float: left;
+}
+
+.heading a:hover {
+    background-color: green;
+}
+
+.heading input {
+    border-radius: 25px;
+    border: 1px solid rgba(0, 0, 0.25);
+    padding: 6px;
+    width: 170px;
+    font-size: 22px;
+    margin-top: 16px;
+}
+#bi{
+    width: 20px;
+    height: 10px;
+    position: relative;
+    right: 35px;
+    top: 1px;
+}
+#image{
+    width: 25px;
+    position: relative;
+    left: 160px;
+    top: 25px;
+}
+.heading button {
+    border-radius: 25px;
+    width: 110px;
+    height: 40px;
+    float: right;
+    margin: 10px;
+    position: relative;
+    top: 10px;
+}
+#buta{
+    position: relative;
+    left: 48px;
+}

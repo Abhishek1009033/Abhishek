@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="dbufrontPageLogo.png">
+    <title>Login</title>
+</head>
+
+<body>
+    <div class="fullscreen">
+        <div class="input1">
+            <div class="input2">
+                <img class="icons" width="230px" height="150px" src="../Image/dbufrontPageLogo.png" alt="logo"><br>
+                <div class="input3">
+                    <label class="nameuse">Username</label><br><input class="inputuser" type="text"><br>
+                    <a class="forgot" href="#forgot">forgot Password?</a><br>
+                    <label class="nameuse">Password</label><br><input class="inputuser" type="password"><br>
+                    <p><input class="nameuse" type="checkbox" id="Remember me"><label class="nameuse"
+                            for="Remember me">Remember me</label></p><br>
+                    <button class="nameuse" id="button">Log In</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
+<style>
+    .fullscreen {
+        width: 100%;
+        height: 100vh;
+        background-color: #5156be;
+    }
+
+    .input1 {
+        width: 25%;
+        height: 100vh;
+        text-align: center;
+        background-color: white;
+    }
+
+    .input2 {
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 400px;
+        padding: 30px;
+        position: relative;
+        top: 60px;
+    }
+
+    .icons {
+        align-items: center;
+        width: 230px;
+        height: 150px;
+        position: relative;
+    }
+
+    .input3 {
+        position: relative;
+        top: 100px;
+    }
+
+    .inputuser {
+        background-color: #5156be;
+        display: block;
+        width: 95%;
+        padding: 0.47rem 0.75rem;
+        font-size: .875rem;
+        font-weight: 400;
+        line-height: 1.5;
+        color: var(--bs-body-color);
+        background-color: var(--bs-input-bg);
+        background-clip: padding-box;
+        border: solid 1px black;
+        border-radius: 10px;
+    }
+
+    .nameuse {
+        float: left;
+
+    }
+
+    .forgot {
+        float: right;
+        position: relative;
+        right: 10%;
+        top: 20px;
+        text-decoration: none;
+    }
+
+    #button {
+        text-align: center;
+        font-size: 20px;
+        color: white;
+        width: 97%;
+        height: 50px;
+        border-radius: 10px;
+        background-color: #5156be;
+        position: relative;
+        left: 5px;
+        top: 30px;
+    }
+</style>

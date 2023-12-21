@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    *{
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;   
+    }
+    body{
+        background-image:url(../Image/backgroundimages.jpeg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .forma{
+        margin-top: 5%;
+        margin-left: auto;
+        margin-right: auto;
+        border: 5px solid black;
+        text-align: center;
+        font-size: 40px;
+        padding: 40px;
+        width: 570px;
+        height: 660px;
+        background-color: white;
+    }
+    .forma div{
+        width: 25px;
+        height: 24px;
+        float: right;
+    }
+    .forma div button{
+        margin: 0px;
+        padding: 0px;
+        width: 25px;
+        height: 24px;
+        float: right;
+    }
+    .forma div button img{
+        margin: -2px;
+        padding: 0px;
+        width: 26px;
+        height: 26px;
+    }
+    .forma h1{
+        font-size: 35px;
+        margin: 25px;
+        color: rgba(59, 125, 211, 0.518);
+    }
+    .forma span{
+        position: relative;
+        bottom: 8px;
+    }
+    .forma input{
+        width: 395px;
+        border: none;
+        border-bottom: 2px solid rgb(71, 205, 71);
+        margin: 8px;
+        font-size: 25px;
+        padding: 10px;
+    }
+    .forma button{
+        padding-left: 40px;
+        padding-right: 40px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        margin-top: 20px;
+        font-size: 20px;
+        background-color: rgb(41, 41, 170);
+        color: white;
+    }
+    .forma p{
+        margin-top: 10px;
+    }
+    .forma p input{
+        border: 2px solid blue;
+        width: 15px;
+    }
+    #checkbox{
+        font-size: 15px;
+    }
+    #account{
+        font-size: 20px;
+    }
+    .forma a{
+        text-decoration: none;
+        color: skyblue;
+    }
+
+</style>
+<body>
+    <div class="forma">
+        <div><button><img src="../Image/crossicon.png" alt="Image"></button></div>
+        <h1><span>. </span> Registration Form <span>.</span></h1>
+        .<input type="text" placeholder=" Name"><br>
+        .<input type="email" placeholder=" Email address"><br>
+        .<input type="text" placeholder=" Country"><br>
+        .<input type="number" placeholder=" Phone"><br>
+        .<input type="password" placeholder=" Password"><br>
+        <p id="checkbox" ><input type="checkbox"><span> </span>Lorem ipsum dolor sit amet consectetur adipisicing elit.<br></p>
+        <button>CREATE ACCOUNT</button><br>
+        <p id="account">Already have an account? <a href="#signin">Sing in</a></p>
+    </div>
+</body>
+</html>

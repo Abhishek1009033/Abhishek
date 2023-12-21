@@ -1,0 +1,180 @@
+
+
+.bodyaa .heading .header .col-md-12{
+    margin-top: 20px;
+}
+
+.bodyaa .heading .header .col-md-12 .imagehead{
+    height: 120px;
+    background-image: url(../Image/food_header-image.png);
+    background-repeat: no-repeat;
+}
+.bodyaa .heading .header .col-md-12 .imagehead a{
+    color: green;
+    padding: 4px 10px;
+    text-decoration: none;
+    border: 1px solid green;
+}
+.bodyaa .heading .header .col-md-12 .imagehead a:hover{
+    color: aliceblue;
+    background-color: green;
+}
+
+
+
+
+
+.bodyaa .navigation{
+    /* position: relative; */
+    padding: 10px 0px;
+    margin-top: -4px;
+    background-color: rgba(25, 124, 25, 0.719);
+}
+
+.bodyaa .navigation .naving a{
+    text-decoration: none;
+    color: aliceblue;
+    padding: 5px 2px;
+    font-size: 14px;
+}
+.bodyaa .navigation .naving a:hover{
+    color: antiquewhite;
+}
+.bodyaa .navigation .naving .col-md-9{
+    margin-top: 4px;
+    margin-bottom: 4px;
+}
+.bodyaa .navigation .naving .col-md-3{
+    margin-top: 4px;
+}
+.bodyaa .navigation .naving .col-md-3 a{
+    margin: 2px 4px;
+    padding: 4px 6px;
+    border-radius: 16px;
+    color: rgba(39, 239, 39, 0.719);
+    background-color: rgb(95, 93, 93);
+}
+.bodyaa .navigation .naving .col-md-3 a:hover{
+    color: rgba(15, 177, 15, 0.719);
+    background-color: aliceblue;
+}
+
+
+.bodyaa .heading3{
+    /* position: relative; */
+    padding-bottom: 20px;
+    background-color: antiquewhite;
+}
+.bodyaa .heading3 .header-i3 .col-md-4 input{
+    border: none;
+    border-radius: 14px;
+}
+.bodyaa .heading3 .header-i3 .col-md-4 button{
+    border: none;
+    border-radius: 14px;
+    background-color: red;
+}
+.bodyaa .heading3 .header-i3 .col-md-8 a{
+    text-decoration: none;
+    color: black;
+}
+
+
+
+.bodyaa .movingimg .imagemove{
+    padding: 30px;
+    margin-top: 20px;
+    border: 1px solid antiquewhite;
+}
+.bodyaa .movingimg .imagemove .carousel .carousel-inner{
+    padding: 10px;
+    border: 1px solid antiquewhite;
+}
+.bodyaa .movingimg .imagemove .carousel .carousel-inner .item h4{
+    color: blue;
+    font-size: 24px;
+}
+.bodyaa .movingimg .imagemove .carousel .carousel-inner .item img{
+    height: 350px;
+}
+.bodyaa .movingimg .imagemove .carousel .carousel-inner .item button{
+    font-size: 16px;
+    padding: 6px 16px;
+    border: none;
+    color: aliceblue;
+    border-radius: 6px;
+    background-color:  green;
+}
+.bodyaa .movingimg .imagemove .carousel .carousel-inner .item .boder-element{
+    font-size: 18px;
+    padding: 6px;
+    border: 1px solid antiquewhite;
+}
+.bodyaa .movingimg .imagemove .carousel .carousel-inner .item p{
+    margin-top: 12px;
+    font-size: 18px;
+}
+.bodyaa .movingimg .imagemove .carousel .carousel-indicators{
+    position: relative;
+    top: 10px;
+}
+.bodyaa .movingimg .imagemove .carousel .carousel-indicators li{   
+    background-color: green;
+}
+
+
+
+.bodyaa .what-hot-recpi .what-hot{
+    margin-top: 20px;
+    border: 1px solid antiquewhite;
+}
+.bodyaa .what-hot-recpi .what-hot h4{
+    font-size: 22px;
+    color: green;
+}
+.bodyaa .what-hot-recpi .what-hot .aa{
+    font-size: 14px;
+    margin-top: 10px;
+    color: blue;
+}
+.bodyaa .what-hot-recpi .what-hot p{
+    width: 90%;
+    font-size: 12px;
+    color: rgb(82, 79, 79);
+}
+.bodyaa .what-hot-recpi .what-hot p a{
+    color: green;
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+.bodyaa .footeraa{
+    margin-top: 20px;
+    padding-bottom: 30px;
+    background-color: black;
+    color: rgb(151, 153, 155);
+}
+.bodyaa .footeraa .footer-element .col-md-4{
+    margin-top: 30px;
+}
+.bodyaa .footeraa .footer-element .col-md-4 p{
+    margin-top: 20px;
+}
+.bodyaa .footeraa .footer-element .col-md-4 button{
+    border: none;
+    padding: 4px 10px;
+    border-radius: 6px;
+    color: aliceblue;
+    background-color: green;
+}
+
+
+
+
+
+

@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="project.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="../Bootstrap/css/bootstrap.min.css">
+    <script src="../Bootstrap/js/jquery.js"></script>
+    <script src="../Bootstrap/js/bootstrap.min.js"></script>
+    <title>Demoss</title>
+    <script>
+        $(document).ready(function(){
+            //tooltip
+            $('[data-toggle="tooltip"]').tooltip();
+            //popover
+            $('[data-toggle="popover"]').popover();
+             $(".btnload").click(function(){
+                $(this).button('loading');
+            });  
+            $(".btnreset").click(function(){
+                $(this).button("loading").delay(500).queue(function(){
+                    $(this).button("reset");
+                    $(this).dequeue();
+                }); 
+            }); 
+            $(".btncustom").click(function(){
+                $(this).button('loading').delay(1000).queue(function(){
+                    $(this).button('somestringvalue');
+                    $(this).dequeue();
+                });        
+            });
+        });
+    </script>        
+</head>
+<body class="container-fluid bodyaa">
+
+    <div class="container-fluid clearfix heading">
+        <div class="container header">
+            <div class="col-md-12">
+                <div class="col-md-6">
+                    <a class="head-logo" href="https://foodrecipes.inspirythemes.com/bootstrap/" >
+                        <img style="padding-top: 10px; max-width: 100%;" src="../Image/food_recepi_logo.png" alt="logo">
+                    </a>
+                </div>
+                <div class="col-md-6 imagehead" >
+                    <div class="col-md-8"></div>
+                    <a href="https://foodrecipes.inspirythemes.com/bootstrap/wp-login.php?redirect_to=https%3A%2F%2Ffoodrecipes.inspirythemes.com%2Fbootstrap"><i style="margin-right: 3px;" class="glyphicon glyphicon-log-in"></i> Log in</a>
+                    <!-- <img  class="header-img" style="max-width: 100%;" src="../Image/food_header-image.png" alt="Image">  -->
+                </div>
+            </div>
+        </div>    
+    </div>
+
+    <div class="container-fluid clearfix navigation">
+        <div class="container naving">
+            <nav class="col-md-9">
+                <a href="https://foodrecipes.inspirythemes.com/bootstrap/">Home</a>
+                <a href="https://foodrecipes.inspirythemes.com/bootstrap/recipes-listing/">Sliders</a>
+                <a href="https://foodrecipes.inspirythemes.com/bootstrap/recipes-listing/">Recent Recipes</a>
+                <a href="https://foodrecipes.inspirythemes.com/bootstrap/submit-recipe/">Submit Recipes</a>
+                <a href="https://foodrecipes.inspirythemes.com/bootstrap/blog/">Blog</a>
+                <a href="https://foodrecipes.inspirythemes.com/bootstrap/about-us/">About</a>
+                <a href="https://foodrecipes.inspirythemes.com/bootstrap/recipes-listing/">Skins</a>
+                <a href="https://foodrecipes.inspirythemes.com/bootstrap/recipes-listing/">Features</a>
+                <a href="https://foodrecipes.inspirythemes.com/bootstrap/contact-us/">Contact</a>
+                <a style="border: none;" href="http://themeforest.net/item/food-recipes-wordpress-theme/1923882?ref=inspirythemes">Buy Theme</a>
+            </nav>
+            <nav class="col-md-3">
+                <a href="#"> <i style="padding: 2px;" class="fa-brands fa-facebook-f"></i></a><span></span>
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                <a href="#"><i class="fa-solid fa-rss"></i></a>
+                <a href="#"><i class="fa-brands fa-flickr"></i></a>
+            </nav>
+        </div>
+    </div>
+
+    <div class="container-fluid clearfix heading3">
+        <div class="container header-i3">
+            <h3 style="margin-left: 30px;">Recipe Search</h3>
+            <nav class="col-md-4">
+                <input type="text">
+                <button><i class="fa fa-search"></i></button>
+            </nav>
+            <nav class="col-md-8">
+                <span style="color: green;">Recipe Types:</span>
+                <a href="#">Cheese</a>,
+                <a href="#">Chicken</a>,
+                <a href="#">Chocolate</a>,
+                <a href="#">Pizzas</a>,
+                <a href="#">Potatos</a>,
+                <a href="#">Rolls</a>
+            </nav>
+        </div>
+    </div>
+
+    <div class="container-fluid clearfix movingimg">
+        <div class="container imagemove">
+            <div class="carousel slide" id="myCarousel" data-ride="carousel">   
+                <div class="carousel-inner col-md-12" role="listbox">
+                    <div class="item active">
+                        <div class="col-md-7">
+                            <img style="max-width: 100%;" src="../Image/ChoclateEarl-250x212AAA1.jpg" alt="Image">
+                        </div>
+                        <div class="wordssa col-md-5">
+                            <h4>Chocolate Earl Grey Pots de Creme Recipe</h4>
+                            <p class="boder-element"> Average Rating: (4.3 / 5)</p>
+                            <p >
+                               2 cups cream 120 grams dark chocolate, chopped 2 bags of earl grey tea 6 egg yolks 3 Tablespoons of sugar 1/2 cup whipping cream 2 Tablespoons powdered sugar 2-3 Teaspoons cointreau
+                            </p>
+                            <button>Read more</button>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="col-md-7">
+                            <img style="max-width: 100%;" src="../Image/pastopizza-thumb-250x212AAA2.jpg" alt="Image">
+                        </div>
+                        <div class="wordssa col-md-5">
+                            <h4>Pesto Pizza With Roasted Garlic & Potato</h4>
+                            <p class="boder-element"> Average Rating: (4.3 / 5)</p>
+                            <p>
+                                Mention potatoes on pizza and you’ll get one of two responses. From the folks who’ve tried it, you can expect an enthusiastic thumbs up. From everyonce else: a resounding “huh?” That’s the thing about pizza with potato – it sounds strange, until you try it, and then you just get ...
+                            </p>
+                            <button>Read more</button>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="col-md-7">
+                            <img style="max-width: 100%;" src="../Image/Pimento-Cheese-Potato-Skins1-250x212AAA3.jpg" alt="Image">
+                        </div>
+                        <div class="wordssa col-md-5">
+                            <h4>Pimento Cheese Potato Skins</h4>
+                            <p class="boder-element"> Average Rating: (4.3 / 5)</p>
+                            <p class="para-grap">
+                                If there’s anything better than the perfect baked potato, it would have to be a twice baked potato. I’m sure everybody’s Mom, Grandma or next-door neighbor has a recipe for double-stuffed potatoes; afterall, if you can bake a potato and make mashed potatoes, you’re pretty much halfway there. See, it’s ...
+                            </p>
+                            <button>Read more</button>
+                        </div>
+                        <a href="#myCarousel" data-slide="prev"></a>
+                        <a href="#myCarousel" data-slide="next"></a>
+                    </div>
+                </div>
+                <ul class="carousel-indicators">
+                    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#myCarousel" data-slide-to="1"></li>
+                    <li data-target="#myCarousel" data-slide-to="2"></li>
+                    <!-- <li data-target="#myCarousel" data-slide-to="3"></li> -->
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid clearfix what-hot-recpi">
+        <div class="container what-hot">
+            <div class="col-md-12">
+                <h3><b>What's <span>Hot</span></b></h3><hr>
+            </div>
+            <div class="col-md-3">
+                <h4><b>Chocolate</b></h4>
+                <img style="max-width: 100%;" src="../Image/ChoclateEarl-250x212AAA1.jpg" alt="Image">
+                <p class="aa"><b>Chocolate Earl Grey Pots...</b></p>
+                <p class="mm">2 cups cream 120 grams dark chocolate, chopped 2 bags of earl grey tea 6 egg yolks 3 Tablespoons of sugar 1/2 cup whipping… <a href="https://foodrecipes.inspirythemes.com/bootstrap/recipe/chocolate-earl-grey-pots-de-creme-recipe/">more</a></p>
+            </div>
+            <div class="col-md-3">
+                <h4><b>Pizzas</b></h4>
+                <img style="max-width: 100%;" src="../Image/pastopizza-thumb-250x212AAA2.jpg" alt="Image">
+                <p class="aa"><b>Pesto Pizza With Roasted...</b></p>
+                <p class="mm">Mention potatoes on pizza and you’ll get one of two responses. From the folks who’ve tried it, you can expect an enthusiastic thumbs up....... <a href="https://foodrecipes.inspirythemes.com/bootstrap/recipe/pesto-pizza-with-roasted-garlic-potato/">more</a></p>
+            </div>
+            <div class="col-md-3">
+                <h4><b>Rolls</b></h4>
+                <img style="max-width: 100%;" src="../Image/Goat-Cheese-Chorizo-Rolls21-222x144bbbb1.jpg" alt="Image">
+                <p class="aa"><b>Goat Cheese and Chorizo...</b></p>
+                <p class="mm">You know how bacon is all the rage these days? Bacon dipped in chocolate, bacon topped donuts, bacon beurre blanc and so and so.... <a href="https://foodrecipes.inspirythemes.com/bootstrap/recipe/goat-cheese-and-chorizo-rools/">more</a></p>
+            </div>
+            <div class="col-md-3">
+                <h4><b>Chicken</b></h4>
+                <img style="max-width: 100%;" src="../Image/Grilled-Five-Spice-Chicken1-222x144bbb2.jpg" alt="Image">
+                <p class="aa"><b>Vietnamese Style Grilled Five...</b></p>
+                <p class="mm">It may not be in my best interest to admit this, but here goes nothing: grilling chicken scares me. It’s just too easy to..... <a href="https://foodrecipes.inspirythemes.com/bootstrap/recipe/vietnamese-style-grilled-five-spice-chicken/">more</a></p>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid clearfix footeraa">
+        <div class="container footer-element">
+            <div class="col-md-4">
+                <img style="max-width: 100%;" src="../Image/footer-logo_footeraa.png" alt="logo">
+                <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum...</p>
+                <button>Read More</button>
+            </div>
+            <div class="col-md-4">
+                <h3 class="hea"><span class="sp">Recent </span> Recipes</h3>
+            </div>
+            <div class="col-md-4">
+                <h3 class="hea"><span class="sp">Recent </span> Tweets</h3><br><br>
+                <p>over a year ago</p>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+    <!-- <div class="container-fluid clearfix webpage">
+        <div class="container pagesa">
+            <div class="paragrapha" >
+                <h3>Recent Recipes :</h3>
+                <p>Sort: <select>
+                    <option>Most Recent </option>
+                    <option>Rand </option>
+                    <option>Comment count</option>
+                    <option>Title </option>
+                    <option>High Rated </option>
+                    <option>Most Rated </option>
+                </select></p>
+            </div><hr>
+            <div class="paragrapha">
+                <div>
+                    <img src="../Image/ChoclateEarl-250x212AAA1.jpg" alt="Image">
+                </div>
+                <div class="wordssa">
+                    <h4>Chocolate Earl Grey Pots de Creme Recipe</h4>
+                    <p>Recipe Type :<span>Chocolate </span> <span> <span> </span> </span> Cuisine :<span>American</span></p><br>
+                    <p style="border: 1px solid antiquewhite; padding: 8px;"> Average Rating: (4.3 / 5)</p><br>
+                    <p><br>
+                        2 cups cream 120 grams dark chocolate, chopped 2 bags of earl grey tea 6 egg yolks 3 Tablespoons of sugar 1/2 cup whipping cream 2 Tablespoons powdered sugar 2-3 Teaspoons cointreau 
+                    </p>
+                    <button>Read more</button>
+                </div>
+            </div>
+            <div class="paragrapha">
+                <div>
+                    <img src="../Image/pastopizza-thumb-250x212AAA2.jpg" alt="Image">
+                </div>
+                <div class="wordssa">
+                    <h4>Pesto Pizza With Roasted Garlic & Potato</h4>
+                    <p>Recipe Type :<span>Pizzas </span> <span> <span> </span> </span> Cuisine : <span>German</span></p><br>
+                    <p style="border: 1px solid antiquewhite; padding: 8px;"> Average Rating: (4.3 / 5)</p><br>
+                    <p><br>
+                        Mention potatoes on pizza and you’ll get one of two responses. From the folks who’ve tried it, you can expect an enthusiastic thumbs up. From everyonce else: a resounding “huh?” That’s the thing about pizza with potato – it sounds strange, until you try it, and then you just get ...
+                    </p>
+                    <button>Read more</button>
+                </div>
+            </div>
+            <div class="paragrapha">
+                <div>
+                    <img src="../Image/Pimento-Cheese-Potato-Skins1-250x212AAA3.jpg" alt="Image">
+                </div>
+                <div class="wordssa">
+                    <h4>Pimento Cheese Potato Skins</h4>
+                    <p>Recipe Type :<span>Chocolate </span> <span> <span> </span> </span> Cuisine :<span>English</span></p><br>
+                    <p style="border: 1px solid antiquewhite; padding: 8px;"> Average Rating: (4.3 / 5)</p><br>
+                    <p><br>
+                        If there’s anything better than the perfect baked potato, it would have to be a twice baked potato. I’m sure everybody’s Mom, Grandma or next-door neighbor has a recipe for double-stuffed potatoes; afterall, if you can bake a potato and make mashed potatoes, you’re pretty much halfway there. See, it’s ..
+                    </p>
+                    <button>Read more</button>
+                </div>
+            </div>
+        </div>
+    </div> -->
+</body>

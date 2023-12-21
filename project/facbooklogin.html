@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facbook</title>
+</head>
+<style>
+    *{  
+        margin: 0px;
+        box-sizing: border-box;
+        background-color: white;
+    }
+    .fullscreen{
+        margin-left: auto;
+        margin-right: auto;
+        width: 1530px;
+    }
+    .heading{
+        width: 1530px;
+        height: 105px;
+        background-color: rgb(43, 43, 206);
+    }
+    .heading h1{
+        width: 130px;
+        height: auto;
+        padding: 28px;
+        margin-left: 100px;
+        color: white;
+        background-color: rgb(43, 43, 206);
+        font-size: 40px;
+        position: absolute;
+    }
+    .div1{
+        width: 45%;
+        height: 100px;
+        padding: 10px;
+        float: right;
+        background-color: rgb(43, 43, 206);
+    }
+    .div1 input{
+        border: 1px solid black;
+        width: 200px;
+        height: 30px;
+        margin:10px;
+        background-color:white;
+        
+    }
+    .div1 label{
+        font-size: 20px;
+        margin-left: 15px;
+        background-color: rgb(43, 43, 206);
+    }
+    .div1 a{
+        margin-left: 20px;
+        text-decoration: none;
+        color: red;
+        background-color: rgb(43, 43, 206);
+    }
+    .div2{
+        width: 230px;
+        height: 90px;
+        float: left;
+        background-color: rgb(43, 43, 206);
+    }
+    .div3{
+        width: 230px;
+        height: 90px;
+        float: left;
+        background-color: rgb(43, 43, 206);
+    }
+    .div1 button{
+        font-size: 15px;
+        border-radius: 15px 15px 15px 15px;
+        width: 100px;
+        height: 32px;
+        margin: 30px;
+        float: left;
+        background-color: blue;
+    }
+    .left{
+        width: 50%;
+        height: 0px;
+        margin-top: 40px;
+        margin-left: 100px;
+    }
+    .left p{
+        width: 70%;
+        font-size: 30px;
+    }
+    .left img{
+        margin-top: 20px;
+        width: 70%;
+    }
+    .right{
+        padding: 30px;
+        font-size: 25px;
+        margin-top: -40px;
+        width:45%;
+        float: right;
+    }
+    .right p{
+        margin-top: 15px;
+        width: 70%;
+    }.right p input{
+        margin-left: 15px;
+        margin-top: -20px;
+    }
+    .right p label{
+        position: relative;
+        bottom: 10px;
+    }
+    .right select{
+        font-size: 20px;
+    }
+    .right input{
+        height: 40px;
+        font-size: 25px;
+        margin-top: 15px;
+    }
+    .right button{
+        font-size: 22px;
+        margin-left: 40px;
+        margin-top: 20px;
+        width: 190px;
+        height: 40px;
+        border-radius: 5px;
+        background-color: green;
+    }
+    .right button b{
+        color: white;
+        background-color: green;
+    }
+
+</style>
+<body>
+    <div class="fullscreen">
+        <div class="heading">
+            <h1>facbook</h1>
+            <div class="div1">
+                <div class="div2">
+                    <label for="email">Email or phone</label><br>
+                    <input type="email"><br>
+                </div>
+                <div class="div3">
+                    <label for="password">password</label><br>
+                    <input type="password"><br>
+                    <a href="#forgot">forgot password?</a>
+                </div>
+                <button>Log In</button>
+            </div>
+        </div>
+        <div class="left">
+            <p>facbook helps you connect and share with the people in your life. </p>
+            <img src="../Image/connitingpeople.png" alt="Image">
+        </div>
+        <div class="right">
+            <h1>Creat an acount</h1>
+            <p>It's quick and easy</p>
+            <input style="width: 246px; border-radius: 5px;" type="text" placeholder=" First name">
+            <input style="width: 246px; border-radius: 5px;" type="text" placeholder=" Surname"><br>
+            <input style="width: 500px; border-radius: 5px;" type="text" placeholder=" Mobile number or email address"><br>
+            <input style="width: 500px; border-radius: 5px;" type="password" placeholder=" password"><br><br>
+            <label>Birthday</label><br>
+            <select>
+                <option>1</option>
+                <option>2</option>
+                <option>3</option>
+            </select>
+            <select>
+                <option>jan</option>
+                <option>feb</option>
+                <option>mar</option>
+            </select>
+            <select>
+                <option>2001</option>
+                <option>2002</option>
+                <option>2003</option>
+            </select><br><br>
+            <label>Gender</label>
+            <p><input type="radio" name="on"><label>Femail</label><input type="radio" name="on"><label>Mail</label><input type="radio" name="on"><label>Costom</label></p>
+            <p style="font-size: 18px;">By clicking Sign Up you agree to our Term, Data Policy and Cookie Policy You may receive SMS notification from us and can opt out at any time</p>
+            <button><b>Sign Up</b></button>
+        </div>
+    </div>
+</body>
+</html>

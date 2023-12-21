@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link rel="stylesheet" href="porject1a.css"> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="../Bootstrap/css/bootstrap.min.css">
+    <script src="../Bootstrap/js/jquery.js"></script>
+    <script src="../Bootstrap/js/bootstrap.min.js"></script>
+    <title>Demoss</title>
+    <script>
+        $(document).ready(function(){
+            //tooltip
+            $('[data-toggle="tooltip"]').tooltip();
+            //popover
+            $('[data-toggle="popover"]').popover();
+             $(".btnload").click(function(){
+                $(this).button('loading');
+            });  
+            $(".btnreset").click(function(){
+                $(this).button("loading").delay(500).queue(function(){
+                    $(this).button("reset");
+                    $(this).dequeue();
+                }); 
+            }); 
+            $(".btncustom").click(function(){
+                $(this).button('loading').delay(1000).queue(function(){
+                    $(this).button('somestringvalue');
+                    $(this).dequeue();
+                });        
+            });
+        });
+    </script>        
+</head>
+
+<style>
+
+
+
+
+.container-fluid .headingaa .container .col-md-12 .col-md-6 a{
+    padding: 6px 12px;
+    color: green;
+    text-decoration: none;
+    border: 1px solid green;
+}
+.container-fluid .headingaa .container .col-md-12 .col-md-6 a:hover{
+    color: #f0f8ff;
+    background-color: green;
+}
+
+.container-fluid .container a{
+    text-decoration: none;
+}
+.container-fluid .navbar-default{
+    background-color: green;
+}
+.container-fluid .navbar-default .container a{
+    color: aliceblue;
+}
+.container-fluid .navbar-default .container a:hover{
+    color: antiquewhite;
+}
+.container-fluid .navbar-default .container .navbar-right li a{
+    margin: 2px 4px;
+    padding: 4px 6px;
+    color: green;
+    border-radius: 12px;
+    background-color: gray;
+}
+.container-fluid .navbar-default .container .navbar-right li a:hover{
+    background-color: aliceblue;
+}
+.container-fluid .navbar-default .container .navbar-right{
+    padding-top: 12px;
+}
+
+
+</style>
+
+
+<body>
+    <div class="container-fluid">
+
+        <div class="container-fluid headingaa">
+            <div class="container" style="margin-top: 20px;">
+                <div class="col-md-12">
+                    <div class="navbar-header col-md-2">
+                        <img style=" width: 100%;" src="../Image/food_recepi_logo.png" alt="logo">
+                    </div>
+                    <div class="col-md-4"></div>
+                    <div class="col-md-6" style="padding-top: 20px; background-image: url(../Image/food_header-image.png); background-repeat: no-repeat; height: 110px; ">
+                        <p class="col-md-7"></p>
+                        <a href="#"><i class="glyphicon glyphicon-log-in" style="margin-right: 4px;"></i> Login</a>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+
+        <div class="container-fluid navbar-default">
+            <nav class="container" >
+                <ul class="nav navbar-nav" style="color: #f0f8ff;">
+                    <li><a href="https://foodrecipes.inspirythemes.com/bootstrap/">Home</a></li>
+                    <li><a href="https://foodrecipes.inspirythemes.com/bootstrap/recipes-listing/">Sliders</a></li>
+                    <li><a href="https://foodrecipes.inspirythemes.com/bootstrap/recipes-listing/">Recent Recipes</a></li>
+                    <li><a href="https://foodrecipes.inspirythemes.com/bootstrap/submit-recipe/">Submit Recipes</a></li>
+                    <li><a href="https://foodrecipes.inspirythemes.com/bootstrap/blog/">Blog</a></li>
+                    <li><a href="https://foodrecipes.inspirythemes.com/bootstrap/about-us/">About</a></li>
+                    <li><a href="https://foodrecipes.inspirythemes.com/bootstrap/recipes-listing/">Skins</a></li>
+                    <li><a href="https://foodrecipes.inspirythemes.com/bootstrap/recipes-listing/">Features</a></li>
+                    <li><a href="https://foodrecipes.inspirythemes.com/bootstrap/contact-us/">Contact</a></li>
+                    <li><a href="http://themeforest.net/item/food-recipes-wordpress-theme/1923882?ref=inspirythemes">Buy Theme</a></li>
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#"> <i style="padding: 2px;" class="fa-brands fa-facebook-f"></i></a></li>
+                    <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                    <li><a href="#"><i class="fa-solid fa-rss"></i></a></li>
+                    <li><a href="#"><i class="fa-brands fa-flickr"></i></a></li>
+                </ul>    
+            </nav>
+        </div>
+
+        <div class="container-fluid" style="background-color: rgb(194, 181, 207); padding-bottom: 100px;">
+            <div class="container" >
+                <h3 class="col-md-12">Recipe Search</h3>
+                <div class="col-md-12">
+                    <input class="col-md-3" style="border-radius: 14px; border: none;" type="text">
+                    <div class="col-md-1">
+                        <span></span>
+                        <button style="border-radius: 14px; color: #f0f8ff; background-color: gray; border: none;"><i class="glyphicon glyphicon-search"></i></button>
+                    </div>
+                    <p class="col-md-1" style="font-size: 45px;margin-top: -20px; color: rgb(122, 109, 93);">/</p>
+                    <nav class="col-md-7">
+                        <span style="color: green;">Recipe Types:</span>
+                        <a href="#">Cheese</a>,
+                        <a href="#">Chicken</a>,
+                        <a href="#">Chocolate</a>,
+                        <a href="#">Pizzas</a>,
+                        <a href="#">Potatos</a>,
+                        <a href="#">Rolls</a>
+                    </nav>
+                </div>
+            </div> 
+        </div>
+
+        <div class="container-fluid" style="background-color: rgb(244, 246, 248);">
+            <div class="container" style="margin-top: -100px;">
+                <div class="col-md-8" style="background-color: rgb(227, 227, 227); padding-bottom: 30px; border-radius: 12px 0px 12px 12px;">
+                    <div class="col-md-12" style="border-bottom: 4px solid white;">
+                        <h4 class="col-md-8" style="padding-top: 6px;">Recent Recipes</h4>
+                        <p class="col-md-4" style="font-size: 16px; padding-top: 10px;">Sort : 
+                            <select style="border: none; width: 150px; font-size: 12px; padding: 6px;">
+                                <option>Most Recent</option>
+                                <option>Pizzas</option>
+                                <option>Chicken</option>
+                                <option>Roll</option>
+                                <option>Chocolate</option>
+                                <option>Goat Cheese</option>
+                                <option>Cheese</option>
+                            </select>
+                        </p>
+                    </div>
+
+                    <div class="col-md-12" style="margin-top: 40px; padding: 8px; border: 1px solid #f0f8ff;">
+                        <img class="col-md-4 img-thumbnail" style="margin-top: 20px; max-width: 100%;"  src="../Image/ChoclateEarl-250x212AAA1.jpg" alt="Image">
+                        <div class="col-md-8">
+                            <h4 style="font-size: 22px;">Chocolate Earl Grey Pots de Creme Recipe</h4>
+                            <p style="margin-top: 10px; font-size: 12px;">Recipe Type: <span style="color: green;">Chocolate</span><span style="margin-left: 10px;"></span> Cuisine: <span style="color: green;">American</span></p>
+                            <p style="border: 1px solid aqua; padding: 8px 10px;">Average Rating: (4.3 / 5)</p>
+                            <p>2 cups cream 120 grams dark chocolate, chopped 2 bags of earl grey tea 6 egg yolks 3 Tablespoons of sugar 1/2 cup whipping cream 2 Tablespoons powdered sugar 2-3 Teaspoons cointreau</p>
+                            <button style="border: none; background-color: green;color: #f0f8ff; padding: 4px 10px; border-radius: 10px;">Read more</button>
+                        </div>
+                    </div>
+
+                    <div class="col-md-12" style="margin-top: 40px; padding: 8px; border: 1px solid #f0f8ff;">
+                        <img class="col-md-4 img-thumbnail" style="margin-top: 20px; max-width: 100%;"  src="../Image/pastopizza-thumb-250x212AAA2.jpg" alt="Image">
+                        <div class="col-md-8">
+                            <h4 style="font-size: 22px;">Pesto Pizza With Roasted Garlic & Potato</h4>
+                            <p style="margin-top: 10px; font-size: 12px;">Recipe Type: <span style="color: green;">Pizzas</span><span style="margin-left: 10px;"></span> Cuisine: <span style="color: green;">German</span></p>
+                            <p style="border: 1px solid aqua; padding: 8px 10px;">Average Rating: (4.3 / 5)</p>
+                            <p>Mention potatoes on pizza and you’ll get one of two responses. From the folks who’ve tried it, you can expect an enthusiastic thumbs up. From everyonce else: a resounding “huh?” That’s the thing about pizza with potato – it sounds strange, until you try it, and then you just get ...</p>
+                            <button style="border: none; background-color: green; color: #f0f8ff; padding: 4px 10px; border-radius: 10px;">Read more</button>
+                        </div>
+                    </div>
+
+                    <div class="col-md-12" style="margin-top: 40px; padding: 8px; border: 1px solid #f0f8ff;">
+                        <img class="col-md-4 img-thumbnail" style="margin-top: 20px; max-width: 100%;"  src="../Image/Pimento-Cheese-Potato-Skins1-250x212AAA3.jpg" alt="Image">
+                        <div class="col-md-8">
+                            <h4 style="font-size: 22px;">Pimento Cheese Potato Skins</h4>
+                            <p style="margin-top: 10px; font-size: 12px;">Recipe Type: <span style="color: green;">Potatos</span><span style="margin-left: 10px;"></span> Cuisine: <span style="color: green;">English</span></p>
+                            <p style="border: 1px solid aqua; padding: 8px 10px;">Average Rating: (4.3 / 5)</p>
+                            <p>If there’s anything better than the perfect baked potato, it would have to be a twice baked potato. I’m sure everybody’s Mom, Grandma or next-door neighbor has a recipe for double-stuffed potatoes; afterall, if you can bake a potato and make mashed potatoes, you’re pretty much halfway there. See, it’s ...</p>
+                            <button style="border: none; background-color: green; color: #f0f8ff; padding: 4px 10px; border-radius: 10px;">Read more</button>
+                        </div>
+                    </div>
+
+                    <div class="col-md-12" style="margin-top: 40px; padding: 8px; border: 1px solid #f0f8ff;">
+                        <img class="col-md-4 img-thumbnail" style="margin-top: 20px; max-width: 100%;"  src="../Image/Goat-Cheese-Chorizo-Rolls21-222x144bbbb1.jpg" alt="Image">
+                        <div class="col-md-8">
+                            <h4 style="font-size: 22px;">Goat Cheese and Chorizo Rolls</h4>
+                            <p style="margin-top: 10px; font-size: 12px;">Recipe Type: <span style="color: green;">Rolls</span><span style="margin-left: 10px;"></span> Cuisine: <span style="color: green;">India</span></p>
+                            <p style="border: 1px solid aqua; padding: 8px 10px;">Average Rating: (4.3 / 5)</p>
+                            <p>You know how bacon is all the rage these days? Bacon dipped in chocolate, bacon topped donuts, bacon beurre blanc and so and so. For me, it’s all about chorizo. I’m constantly looking for ways to incorporate it into my cooking and seldom pass up an opportunity to eat a ...</p>
+                            <button style="border: none; background-color: green; color: #f0f8ff; padding: 4px 10px; border-radius: 10px;">Read more</button>
+                        </div>
+                    </div>
+
+                    <div class="col-md-12" style="margin-top: 40px; padding: 8px; border: 1px solid #f0f8ff;">
+                        <img class="col-md-4 img-thumbnail" style="margin-top: 20px; max-width: 100%;"  src="../Image/Grilled-Five-Spice-Chicken1-222x144bbb2.jpg" alt="Image">
+                        <div class="col-md-8">
+                            <h4 style="font-size: 22px;">Vietnamese Style Grilled Five Spice Chicken</h4>
+                            <p style="margin-top: 10px; font-size: 12px;">Recipe Type: <span style="color: green;">Chicken</span><span style="margin-left: 10px;"></span> Cuisine: <span style="color: green;">Chinese</span></p>
+                            <p style="border: 1px solid aqua; padding: 8px 10px;">Average Rating: (4.3 / 5)</p>
+                            <p>It may not be in my best interest to admit this, but here goes nothing: grilling chicken scares me. It’s just too easy to get wrong. Black, cremated skin on the outside with an interior so pink that just looking at it might give you salmonella. Or worse, well-cooked flesh ...</p>
+                            <button style="border: none; background-color: green; color: #f0f8ff; padding: 4px 10px; border-radius: 10px;">Read more</button>
+                        </div>
+                    </div>
+
+
+                </div>
+                <div class="col-md-4" style="background-color:rgb(229, 225, 220) ;border-radius: 0px 12px 12px 12px;" >
+                    <h4 class="col-md-12" style="padding: 4px;"><span style="color: green;">MISC</span> Recipes</h4>
+                    <div class="col-md-12" style="border: 1px solid antiquewhite; border-radius: 6px;">
+                        <button style="padding: 6px 10px; border: 1px solid antiquewhite; border-radius: 6px; background-color: #f0f8ff; margin-top: 20px;">Recent</button>
+                        <button style="padding: 6px 10px; border: 1px solid antiquewhite; border-radius: 6px; background-color: #f0f8ff; margin-top: 20px;">Popular</button>
+                        <button style="padding: 6px 10px; border: 1px solid antiquewhite; border-radius: 6px; background-color: #f0f8ff; margin-top: 20px;">Random</button>
+
+                    </div>
+                    <div class="col-md-12" style="margin-top: 24px;">
+                        <h4 style="border-bottom: 4px solid antiquewhite;padding-bottom: 8px;"><span style="color: green;">News</span> and Events</h4>
+                        <a href="https://foodrecipes.inspirythemes.com/bootstrap/habitasse-augue-penatibus-sit-dictumst-arcu-in/">Best Bread pairing for Barbeque?</a><br>
+                        <p style="border-bottom: 2px solid antiquewhite;padding-bottom: 8px; margin-top: 4px;">Quis sed mid elit, risus aliquet placerat. Pid et, vel phasellus augue... <a href="https://foodrecipes.inspirythemes.com/bootstrap/habitasse-vut-odio-pulvinar-dignissim-magna-ridiculus/">more</a></p>
+                        <a href="https://foodrecipes.inspirythemes.com/bootstrap/habitasse-vut-odio-pulvinar-dignissim-magna-ridiculus/">Baking Question</a><br>
+                        <p style="border-bottom: 2px solid antiquewhite;padding-bottom: 8px; margin-top: 4px;">Quis sed mid elit, risus aliquet placerat. Pid et, vel phasellus augue... <a href="https://foodrecipes.inspirythemes.com/bootstrap/habitasse-vut-odio-pulvinar-dignissim-magna-ridiculus/">more</a></p>
+                        <a href="https://foodrecipes.inspirythemes.com/bootstrap/phasellus-in-dolor-nec-nisi-adipiscing-parturient-proin-in/">Fresh Food on TV: Weekend Edition</a><br>
+                        <p style="border-bottom: 2px solid antiquewhite;padding-bottom: 8px; margin-top: 4px;">Dignissim velit in hac dignissim in tristique vut. Odio, pulvinar lectus odio?.. <a href="https://foodrecipes.inspirythemes.com/bootstrap/phasellus-in-dolor-nec-nisi-adipiscing-parturient-proin-in/">more</a></p><br>
+                    </div>
+                    <div class="col-md-12" style="padding-bottom: 40px;">
+                        <h4 style="border-bottom: 4px solid antiquewhite;padding-bottom: 8px;"><span style="color: green;">Weekly</span> Special</h4>
+                        <div class="col-md-12" style="border: 2px solid antiquewhite; padding-bottom: 4px;">
+                            <img class="img-thumbnail col-md-4" style="margin-top: 10px; max-width: 100%; height: 10vh;" src="../Image/Pimento-Cheese-Potato-Skins1-250x212AAA3.jpg" alt="Image">
+                            <div class="col-md-8">
+                                <h4 style="font-size: 12px;">Pimento Cheese Potato Skins</h4>
+                                <p style="font-size: 8px;">If there’s anything better than the perfect baked potato, it would have to be a twice baked potato. I’m sure everybody’s...</p>
+                                <button style="font-size: 8px; border: none; background-color: green; color: #f0f8ff; padding: 2px 6px; border-radius: 4px;">Read more</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-12">
+                        <h4 style="border-bottom: 4px solid antiquewhite;padding-bottom: 4px;">Recipe Types</h4>
+                        <p style="border-bottom: 1px solid antiquewhite;padding-bottom: 4px;">Cheese</p>
+                        <p style="border-bottom: 1px solid antiquewhite;padding-bottom: 4px;">Chicken</p>
+                        <p style="border-bottom: 1px solid antiquewhite;padding-bottom: 4px;">Chocolate</p>
+                        <p style="border-bottom: 1px solid antiquewhite;padding-bottom: 4px;">Pizzas</p>
+                        <p style="border-bottom: 1px solid antiquewhite;padding-bottom: 4px;">Potatos</p>
+                        <p style="border-bottom: 1px solid antiquewhite;padding-bottom: 4px;">Rolls</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container-fluid" style="background-color: rgb(38, 36, 36); color: rgb(142, 144, 146); padding-bottom: 16px;" >
+            <div class="container">
+                <div class="col-md-4">
+                    <img style="margin-top: 20px; max-width: 100%;" src="../Image/footer-logo_footeraa.png" alt="logo">
+                    <p style="margin-top: 20px;">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum...</p>
+                    <button style="margin-top: 20px; border-radius: 10px; border: none; padding: 4px 12px; background-color: green; color: #f0f8ff;">Read More</button>
+                </div>
+                <div class="col-md-4">
+                    <h3 class="hea"><span class="sp">Recent </span> Recipes</h3>
+                </div>
+                <div class="col-md-4">
+                    <h3 class="hea"><span class="sp">Recent </span> Tweets</h3><br><br>
+                    <p>over a year ago</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="container-fluid" style="background-color: black; padding-top: 12px;">
+            <div class="container">
+                <div class="col-md-6">
+                    <p style="float: left; color: rgb(142, 144, 146);">Copyright © 2020. <b style="color: #f0f8ff;">Food Recipes</b> - A Premium Wordpress Theme</p>
+                </div>
+                <div class="col-md-6">
+                    <p style="float: right; color: rgb(142, 144, 146);">Developed by <b style="color: #f0f8ff;">InspityThemes</b></p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
